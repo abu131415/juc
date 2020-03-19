@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d39b29d-8750-491d-bf58-b22fce1feed0" name="Default Changelist" comment="添加了CAS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/list/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/lock/ReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/lock/SynchronizedDemo.java" afterDir="false" />
+    <list default="true" id="8d39b29d-8750-491d-bf58-b22fce1feed0" name="Default Changelist" comment="添加了可重入锁">
       <change afterPath="$PROJECT_DIR$/target/classes/com/abu/cas/AtomicReferenceDemo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/abu/cas/CASdemo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/abu/cas/User.class" afterDir="false" />
@@ -245,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584588365219</updated>
-      <workItem from="1584588368613" duration="13485000" />
+      <workItem from="1584588368613" duration="14227000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1584596651936</created>
@@ -289,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584609992823</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加了可重入锁">
+      <created>1584630146810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584630146810</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,17 +316,18 @@
     <MESSAGE value="第四次提交" />
     <MESSAGE value="添加了CAS" />
     <MESSAGE value="添加了atomicReference" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了atomicReference" />
+    <MESSAGE value="添加了可重入锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了可重入锁" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="7" key="#com.intellij.ide.util.MemberChooser" timestamp="1584629306328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="7" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584629306328" />
-    <state x="191" y="0" key="CommitChangelistDialog2" timestamp="1584609992289">
+    <state x="191" y="0" key="CommitChangelistDialog2" timestamp="1584630146336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="191" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584609992289" />
+    <state x="191" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584630146336" />
     <state x="413" y="46" key="FileChooserDialogImpl" timestamp="1584596594444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -363,10 +368,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="31" width="675" height="655" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1584619254952" />
-    <state x="175" y="33" key="Vcs.Push.Dialog.v2" timestamp="1584610003692">
+    <state x="175" y="33" key="Vcs.Push.Dialog.v2" timestamp="1584630153294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="33" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584610003692" />
+    <state x="175" y="33" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584630153294" />
     <state x="434" y="262" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584608247741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
