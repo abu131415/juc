@@ -1,4 +1,4 @@
-package com.abu;
+package com.abu.thread;
 
 import java.util.concurrent.TimeUnit;
 
