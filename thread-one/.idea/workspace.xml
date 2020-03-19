@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d39b29d-8750-491d-bf58-b22fce1feed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/single/DemoSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abu/One.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abu/ThreadVisual.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/thread/Two.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.abu.thread" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IdeaProject\threadtest\thread-one\src\main\java\com\abu\thread" />
     </key>
@@ -190,7 +191,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584588365219</updated>
-      <workItem from="1584588368613" duration="3704000" />
+      <workItem from="1584588368613" duration="3951000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1584596651936</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584596651936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次提交">
+      <created>1584603187883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584603187883</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,13 +215,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="191" y="0" key="CommitChangelistDialog2" timestamp="1584603083359">
+    <state x="191" y="0" key="CommitChangelistDialog2" timestamp="1584603187418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="191" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584603083359" />
+    <state x="191" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584603187418" />
     <state x="413" y="46" key="FileChooserDialogImpl" timestamp="1584596594444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -234,9 +243,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1314" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584603038229" />
-    <state x="175" y="33" key="Vcs.Push.Dialog.v2" timestamp="1584596665657">
+    <state x="175" y="33" key="Vcs.Push.Dialog.v2" timestamp="1584603198604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="33" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584596665657" />
+    <state x="175" y="33" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584603198604" />
   </component>
 </project>
