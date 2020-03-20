@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d39b29d-8750-491d-bf58-b22fce1feed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/lock/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/lock/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/abu/lock/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,7 @@
       <recent name="E:\IdeaProject\threadtest\thread-one\src\main\java\com\abu\thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+  <component name="RunManager" selected="Application.SemaphoreDemo">
     <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.abu.lock.CountDownLatchDemo" />
       <module name="thread-one" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abu.list.Demo01" />
+    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abu.lock.ReentrantLockDemo" />
       <module name="thread-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abu.list.*" />
+          <option name="PATTERN" value="com.abu.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abu.lock.ReentrantLockDemo" />
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abu.lock.SemaphoreDemo" />
       <module name="thread-one" />
       <extension name="coverage">
         <pattern>
@@ -209,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.ReentrantLockDemo" />
         <item itemvalue="Application.SynchronizedDemo" />
-        <item itemvalue="Application.Demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +239,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584588365219</updated>
-      <workItem from="1584588368613" duration="15792000" />
+      <workItem from="1584588368613" duration="15928000" />
+      <workItem from="1584665542451" duration="1899000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1584596651936</created>
@@ -297,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584632751916</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0.12">
+      <created>1584634383722</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584634383722</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,61 +329,62 @@
     <MESSAGE value="添加了CAS" />
     <MESSAGE value="添加了atomicReference" />
     <MESSAGE value="添加了可重入锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了可重入锁" />
+    <MESSAGE value="0.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="7" key="#com.intellij.ide.util.MemberChooser" timestamp="1584629306328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="7" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584629306328" />
-    <state x="87" y="0" width="1213" height="728" key="CommitChangelistDialog2" timestamp="1584632751474">
+    <state x="87" y="0" width="1213" height="728" key="CommitChangelistDialog2" timestamp="1584668521794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="87" y="0" width="1213" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584632751474" />
+    <state x="87" y="0" width="1213" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584668521794" />
     <state x="413" y="46" key="FileChooserDialogImpl" timestamp="1584596594444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="46" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584596594444" />
-    <state width="1314" height="150" key="GridCell.Tab.0.bottom" timestamp="1584634213350">
+    <state width="1314" height="466" key="GridCell.Tab.0.bottom" timestamp="1584668370109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="150" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584634213350" />
-    <state width="1314" height="150" key="GridCell.Tab.0.center" timestamp="1584634213350">
+    <state width="1314" height="466" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584668370109" />
+    <state width="1314" height="466" key="GridCell.Tab.0.center" timestamp="1584668370109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="150" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584634213350" />
-    <state width="1314" height="150" key="GridCell.Tab.0.left" timestamp="1584634213350">
+    <state width="1314" height="466" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584668370109" />
+    <state width="1314" height="466" key="GridCell.Tab.0.left" timestamp="1584668370109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="150" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584634213350" />
-    <state width="1314" height="150" key="GridCell.Tab.0.right" timestamp="1584634213350">
+    <state width="1314" height="466" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584668370109" />
+    <state width="1314" height="466" key="GridCell.Tab.0.right" timestamp="1584668370109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="150" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584634213350" />
-    <state width="1314" height="3" key="GridCell.Tab.1.bottom" timestamp="1584614361638">
+    <state width="1314" height="466" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584668370109" />
+    <state width="1314" height="3" key="GridCell.Tab.1.bottom" timestamp="1584634432968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="3" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584614361638" />
-    <state width="1314" height="3" key="GridCell.Tab.1.center" timestamp="1584614361638">
+    <state width="1314" height="3" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584634432968" />
+    <state width="1314" height="3" key="GridCell.Tab.1.center" timestamp="1584634432968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="3" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584614361638" />
-    <state width="1314" height="3" key="GridCell.Tab.1.left" timestamp="1584614361638">
+    <state width="1314" height="3" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584634432968" />
+    <state width="1314" height="3" key="GridCell.Tab.1.left" timestamp="1584634432968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="3" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584614361638" />
-    <state width="1314" height="3" key="GridCell.Tab.1.right" timestamp="1584614361638">
+    <state width="1314" height="3" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584634432968" />
+    <state width="1314" height="3" key="GridCell.Tab.1.right" timestamp="1584634432968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1314" height="3" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584614361638" />
+    <state width="1314" height="3" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584634432968" />
     <state x="336" y="31" width="675" height="655" key="StructurePopup" timestamp="1584619254952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="31" width="675" height="655" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1584619254952" />
-    <state x="175" y="33" key="Vcs.Push.Dialog.v2" timestamp="1584632757171">
+    <state x="175" y="33" key="Vcs.Push.Dialog.v2" timestamp="1584634389129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="33" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584632757171" />
+    <state x="175" y="33" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584634389129" />
     <state x="434" y="262" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584608247741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
